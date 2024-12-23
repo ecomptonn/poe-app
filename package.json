@@ -1,0 +1,22 @@
+{
+    "name": "poe-app",
+    "version": "1.0.0",
+    "description": "App to access the Path of Exiles market",
+    "main": "app.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node app",
+        "dev": "cross-env NODE_ENV=development nodemon app"
+    },
+    "author": "Eric Compton",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "express-handlebars": "^8.0.1",
+        "mongoose": "^8.9.2"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^3.1.9"
+    }
+}
